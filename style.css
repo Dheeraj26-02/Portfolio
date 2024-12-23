@@ -568,7 +568,7 @@ body {
 
 .project2 {
     display: flex;
-    background-image: url("/public/bg_1.jpg");
+    background-image: url("./public/bg_1.jpg");
     background-size: cover;
     background-position: center center;
     width: 100vw;
