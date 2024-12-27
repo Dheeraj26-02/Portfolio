@@ -51,10 +51,17 @@ body {
     text-decoration: none;
     color: white;
 }
+.links a:active{
+    color: #0099ff;
+}
+.links a:focus-within{
+    color: #0099ff;
+}
 
 .ho {
     position: relative;
 }
+
 
 .ho::after {
     display: block;
