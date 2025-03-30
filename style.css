@@ -1062,13 +1062,20 @@ input {
     .home-section h2 {
         font-size: 20px;
     }
+    .first h2{
+        font-size: 35px;
+    }
+    .first h1{
+        font-size: 35px;
+        width: 90vw;
+    }
 
     #text {
         margin-top: 50px;
-        width: 45vw;
+        width: 90vw;
         white-space: nowrap;
         overflow: hidden;
-        font-size: 20px;
+        font-size: 35px;
         border-right: .15em solid #0099ff;
     }
 
