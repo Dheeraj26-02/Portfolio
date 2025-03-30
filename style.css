@@ -1088,6 +1088,10 @@ input {
         transition: .5s linear;
         transform: scale(1.1);
     }
+    .about h2{
+        font-size: 45px;
+        padding-bottom: 10px;
+    }
 
     .first {
         width: 50vw;
@@ -1097,14 +1101,12 @@ input {
         margin-right: 5px;
         padding-right: 5px;
         padding-left: 5px;
-        display: flex;
+        display: none;
         width: 30vw;
         /* overflow: hidden; */
     }
 
-    .video {
-        width: 160px;
-    }
+
 
     .about-section {
         flex-direction: column;
@@ -1119,7 +1121,7 @@ input {
         flex-direction: column;
         justify-content: center;
     }
-
+    
     .img {
         width: 200px;
         position: static;
@@ -1131,9 +1133,9 @@ input {
 
     .me {
         position: absolute;
-        top: 36%;
+        top: 35%;
         left: 12%;
-        font-size: 58px;
+        font-size: 45px;
     }
 
     .about {
@@ -1162,7 +1164,7 @@ input {
     .images {
         width: 90vw;
         margin-left: 0px;
-        position: static;
+        position: relative;
         gap: 40px;
         padding-left: 0px;
     }
@@ -1175,12 +1177,19 @@ input {
     }
 
     .languages h2 {
-        text-align: center;
+      margin-left: 95px;
     }
 
     .languages {
-        width: 80vw;
+        width: 70vw;
         justify-content: center;
+    }
+    .images{
+        margin-left: 40px;
+        width: 70vw;
+    }
+    .img1{
+        gap: 50px;
     }
 
     .lastimg {
@@ -1297,8 +1306,8 @@ input {
     }
 
     .me5 {
-        font-size: 42px;
-        left: 3%;
+        font-size: 35px;
+        left: 10%;
     }
 
     .form {
@@ -1355,7 +1364,7 @@ input {
     .me6{
         left: 9%;
         top: 6%;
-        font-size: 40px;
+        font-size: 38px;
     }
     .profiles{
         justify-content: center;
