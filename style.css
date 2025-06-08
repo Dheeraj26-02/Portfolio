@@ -116,13 +116,13 @@ body {
     position: absolute;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 350px;
+    width: 310px;
     height: 200px;
     z-index: 1;
     justify-content: center;
     align-items: center;
     top: 130%;
-    left: 8%;
+    left: 7%;
     background-color: black;
 }
 
@@ -1072,10 +1072,10 @@ input {
 
     #text {
         margin-top: 50px;
-        width: 90vw;
+        width: 85vw;
         white-space: nowrap;
         overflow: hidden;
-        font-size: 35px;
+        font-size: 32px;
         border-right: .15em solid #0099ff;
     }
 
@@ -1139,9 +1139,8 @@ input {
     }
 
     .me {
-        position: absolute;
-        top: 35%;
-        left: 12%;
+        top: 32%;
+        left: 14%;
         font-size: 45px;
     }
 
@@ -1178,7 +1177,7 @@ input {
 
     .me1 {
         position: absolute;
-        left: 25%;
+        left: 28%;
         top: 3%;
         font-size: 60px;
     }
@@ -1192,8 +1191,7 @@ input {
         justify-content: center;
     }
     .images{
-        margin-left: 40px;
-        width: 70vw;
+        margin-left: 20px;
     }
     .img1{
         gap: 50px;
@@ -1206,12 +1204,12 @@ input {
     .timeline {
         position: relative;
         margin-left: 50px;
-        margin-right: -50px;
+        margin-right: -40px;
     }
 
     .timeline-date {
         top: 30%;
-        left: -32%;
+        left: -37%;
     }
 
     .resume {
@@ -1219,8 +1217,8 @@ input {
     }
 
     .me2 {
-        left: 15%;
-        top: 8%;
+        left: 7%;
+        top: 6%;
     }
 
     .down {
@@ -1229,7 +1227,7 @@ input {
 
     .me3 {
         top: 2%;
-        left: 13%;
+        left: 8%;
     }
 
     .projects p {
@@ -1290,7 +1288,7 @@ input {
 
     .me4 {
         top: 2%;
-        left: 8%;
+        left: 7%;
         font-size: 55px;
     }
 
@@ -1298,14 +1296,14 @@ input {
     .mobile h2,
     .email h2,
     .whats h2 {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .address p,
     .mobile p,
     .email p,
     .whats p {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .getintouch h2 {
@@ -1314,7 +1312,7 @@ input {
 
     .me5 {
         font-size: 35px;
-        left: 10%;
+        left: 6%;
     }
 
     .form {
@@ -1369,7 +1367,7 @@ input {
         font-size: 35px;
     }
     .me6{
-        left: 9%;
+        left: 5%;
         top: 6%;
         font-size: 38px;
     }

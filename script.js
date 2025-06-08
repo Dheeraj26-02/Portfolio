@@ -86,6 +86,8 @@ sections.forEach(section => {
 document.querySelectorAll('.navbar a').forEach(link => {
     link.addEventListener('click', (e) => {
         e.preventDefault();
+        document.querySelector('.sidebar').style.display = "none"; // Hide sidebar on link click
+        menuIcon.src = "./public/menu.png"; // Reset menu icon to menu state
         const targetId = link.getAttribute('href').slice(1);
         const targetElement = document.getElementById(targetId);
         const navbarHeight = document.querySelector('.navbar').offsetHeight;
