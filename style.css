@@ -310,6 +310,12 @@ body {
     left: -34px;
     animation: blinker 1s linear infinite;
 }
+.timeline-item:nth-child(2)::before {
+    background-color: black;
+    border: 4px solid #0099ff;
+    left: -34px;
+    animation: blinker 1s linear infinite;
+}
 
 @keyframes blinker {
     50% {
@@ -340,6 +346,7 @@ body {
 
 .timeline-content {
     background-color: #42484d77;
+    cursor: pointer;
     border-radius: 8px;
     padding: 15px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -1463,4 +1470,23 @@ html {
 .trans.show {
     opacity: 1;
     transform: translateY(0px);
+}
+#hello {
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    transition: opacity 1s ease-in-out;
+}
+
+/* very light fade out */
+.fade-out {
+    opacity: 0.2;
+    filter: blur(4px); 
+}
+
+/* clean fade in */
+.fade-in {
+    opacity: 1;
 }

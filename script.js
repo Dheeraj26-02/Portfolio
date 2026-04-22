@@ -20,7 +20,7 @@ menuBtn.addEventListener("click", () => {
 
 
 
-const textElement = document.getElementById('text');
+const helloement = document.getElementById('text');
 const sentences = [
     "Software Engineer",
     "Video Editor",
@@ -33,15 +33,15 @@ function type() {
     const currentSentence = sentences[sentenceIndex];
 
     if (charIndex < currentSentence.length) {
-        textElement.textContent += currentSentence.charAt(charIndex);
+        helloement.textContent += currentSentence.charAt(charIndex);
         charIndex++;
         setTimeout(type, 50); // Typing speed
     } else {
         // Sentence complete
-        textElement.style.borderRight = "none"; // Hide cursor briefly
+        helloement.style.borderRight = "none"; // Hide cursor briefly
         setTimeout(() => {
-            textElement.textContent = ""; // Clear the text
-            textElement.style.borderRight = ".15em solid #0099ff"; // Restore the cursor
+            helloement.textContent = ""; // Clear the text
+            helloement.style.borderRight = ".15em solid #0099ff"; // Restore the cursor
             charIndex = 0; // Reset character index
             sentenceIndex = (sentenceIndex + 1) % sentences.length; // Move to the next sentence (looping)
             type(); // Start typing the next sentence
@@ -215,3 +215,48 @@ text.addEventListener("click", () => {
     ytext.style.transform = "scale(1.1)";
     ytext.style.transition = ".5s";
 })
+
+const edunext=document.getElementById("edunext");
+edunext.addEventListener('click',(e)=>{
+    window.open("https://edunexttechnologies.com/", "_blank");
+})
+
+const gla=document.getElementById("gla");
+gla.addEventListener('click',(e)=>{
+    window.open("https://www.gla.ac.in/", "_blank");
+})
+
+
+const words = [
+  "Hello 👋🏻",
+  "नमस्ते 🙏🏻",
+  "Hola 👋🏻",
+  "Bonjour 👋🏻",
+  "Hallo 👋🏻",
+  "Ciao 👋🏻",
+  "こんにちは 👋🏻",
+  "你好 👋🏻",
+  "안녕하세요 👋🏻",
+  "Привет 👋🏻",
+  "السلام عليكم 👋🏻",
+];
+
+const hello = document.getElementById("hello");
+
+let index = 0;
+changeWord();
+function changeWord() {
+  hello.classList.remove("fade-in");
+  hello.classList.add("fade-out");
+
+  setTimeout(() => {
+    hello.textContent = words[index];
+
+    hello.classList.remove("fade-out");
+    hello.classList.add("fade-in");
+
+    index = (index + 1) % words.length;
+  }, 300); // shorter + softer switch
+}
+
+setInterval(changeWord, 2200);
