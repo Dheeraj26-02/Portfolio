@@ -225,6 +225,14 @@ const gla=document.getElementById("gla");
 gla.addEventListener('click',(e)=>{
     window.open("https://www.gla.ac.in/", "_blank");
 })
+const school10=document.getElementById("school10");
+school10.addEventListener('click',(e)=>{
+    window.open("https://stgeorgescollegeagra.com/", "_blank");
+})
+const school12=document.getElementById("school12");
+school12.addEventListener('click',(e)=>{
+    window.open("https://stgeorgescollegeagra.com/", "_blank");
+})
 
 
 const words = [
